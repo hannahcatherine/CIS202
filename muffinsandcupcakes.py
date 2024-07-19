@@ -5,10 +5,12 @@ cupcakes = 10
 
 while buying != "0":
     if buying == "muffin" and muffins > 0:
+        print("have a nice day")
         muffins = muffins -1
         if buying == "muffin" and muffins == 0:
             print ("There are no more muffins")
     if buying == "cupcake" and cupcakes >0:
+        print("have a nice day")
         cupcakes = cupcakes -1
         if buying == "cupcake" and cupcakes == 0:
             print ("There are no more cupcakes")
